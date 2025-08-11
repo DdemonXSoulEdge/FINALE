@@ -1,0 +1,57 @@
+2025-07-26 19:33:14,894 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.100.7:5001
+2025-07-26 19:33:14,896 [INFO] [33mPress CTRL+C to quit[0m
+2025-07-26 19:33:14,910 [INFO]  * Restarting with stat
+2025-07-26 19:33:16,094 [WARNING]  * Debugger is active!
+2025-07-26 19:33:16,135 [INFO]  * Debugger PIN: 371-087-389
+2025-07-26 19:34:52,809 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.100.7:5001
+2025-07-26 19:34:52,811 [INFO] [33mPress CTRL+C to quit[0m
+2025-07-26 19:34:52,820 [INFO]  * Restarting with stat
+2025-07-26 19:34:53,935 [WARNING]  * Debugger is active!
+2025-07-26 19:34:53,986 [INFO]  * Debugger PIN: 371-087-389
+2025-07-26 19:35:50,141 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.100.7:5001
+2025-07-26 19:35:50,143 [INFO] [33mPress CTRL+C to quit[0m
+2025-07-26 19:35:50,149 [INFO]  * Restarting with stat
+2025-07-26 19:35:51,177 [WARNING]  * Debugger is active!
+2025-07-26 19:35:51,217 [INFO]  * Debugger PIN: 371-087-389
+2025-07-26 19:36:27,048 [INFO]  * Detected change in 'C:\\Users\\Usuario\\OneDrive\\Documentos\\8vo Cuatrimestre\\SDA\\micro\\auth_service\\app.py', reloading
+2025-07-26 19:36:27,178 [INFO]  * Restarting with stat
+2025-07-26 19:36:29,745 [INFO] Servidor iniciado en http://localhost:5001
+2025-07-26 19:36:29,843 [WARNING]  * Debugger is active!
+2025-07-26 19:36:29,896 [INFO]  * Debugger PIN: 371-087-389
+2025-07-26 19:36:34,910 [INFO] Servidor iniciado en http://localhost:5001
+2025-07-26 19:36:35,872 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.100.7:5001
+2025-07-26 19:36:35,873 [INFO] [33mPress CTRL+C to quit[0m
+2025-07-26 19:36:35,878 [INFO]  * Restarting with stat
+2025-07-26 19:36:36,770 [INFO] Servidor iniciado en http://localhost:5001
+2025-07-26 19:36:36,810 [WARNING]  * Debugger is active!
+2025-07-26 19:36:36,844 [INFO]  * Debugger PIN: 371-087-389
+2025-07-26 19:46:00,608 [INFO] Usuario registrado correctamente: law
+2025-07-26 19:46:00,649 [INFO] 127.0.0.1 - - [26/Jul/2025 19:46:00] "[35m[1mPOST /register HTTP/1.1[0m" 201 -
+2025-07-26 19:46:00,753 [INFO] Usuario ya existe: law
+2025-07-26 19:46:00,754 [INFO] 127.0.0.1 - - [26/Jul/2025 19:46:00] "[31m[1mPOST /register HTTP/1.1[0m" 409 -
+2025-07-26 19:46:00,961 [INFO] Usuario ya existe: law
+2025-07-26 19:46:00,963 [INFO] 127.0.0.1 - - [26/Jul/2025 19:46:00] "[31m[1mPOST /register HTTP/1.1[0m" 409 -
+2025-07-26 19:46:03,208 [INFO] Usuario ya existe: law
+2025-07-26 19:46:03,210 [INFO] 127.0.0.1 - - [26/Jul/2025 19:46:03] "[31m[1mPOST /register HTTP/1.1[0m" 409 -
+2025-07-26 19:46:18,636 [INFO] Se solicitó la lista de usuarios
+2025-07-26 19:46:18,638 [INFO] 127.0.0.1 - - [26/Jul/2025 19:46:18] "GET /users HTTP/1.1" 200 -
+2025-07-26 19:46:22,652 [INFO] 127.0.0.1 - - [26/Jul/2025 19:46:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-26 19:46:32,429 [INFO] Usuario registrado correctamente: luffy
+2025-07-26 19:46:32,431 [INFO] 127.0.0.1 - - [26/Jul/2025 19:46:32] "[35m[1mPOST /register HTTP/1.1[0m" 201 -
+2025-07-26 19:46:37,671 [INFO] Se solicitó la lista de usuarios
+2025-07-26 19:46:37,672 [INFO] 127.0.0.1 - - [26/Jul/2025 19:46:37] "GET /users HTTP/1.1" 200 -
+2025-07-26 19:47:00,136 [INFO] Usuario ya existe: luffy
+2025-07-26 19:47:00,137 [INFO] 127.0.0.1 - - [26/Jul/2025 19:47:00] "[31m[1mPOST /register HTTP/1.1[0m" 409 -
+2025-07-26 20:56:13,007 [INFO]  * Detected change in 'C:\\Users\\Usuario\\OneDrive\\Documentos\\8vo Cuatrimestre\\SDA\\micro\\auth_service\\app.py', reloading

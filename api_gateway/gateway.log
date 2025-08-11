@@ -1,0 +1,508 @@
+2025-07-26 19:31:46,076 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-26 19:31:46,077 [INFO] [33mPress CTRL+C to quit[0m
+2025-07-26 19:45:57,468 [INFO] 127.0.0.1 - - [26/Jul/2025 19:45:57] "OPTIONS /auth/register HTTP/1.1" 200 -
+2025-07-26 19:46:00,656 [ERROR] Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "C:\Users\Usuario\OneDrive\Documentos\8vo Cuatrimestre\SDA\micro\venv\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Usuario\OneDrive\Documentos\8vo Cuatrimestre\SDA\micro\venv\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Usuario\OneDrive\Documentos\8vo Cuatrimestre\SDA\micro\venv\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Usuario\OneDrive\Documentos\8vo Cuatrimestre\SDA\micro\venv\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Usuario\OneDrive\Documentos\8vo Cuatrimestre\SDA\micro\venv\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\Usuario\OneDrive\Documentos\8vo Cuatrimestre\SDA\micro\api_gateway\app.py", line 44, in auth_proxy
+    log_request_response(path=f"/auth/{path}",
+TypeError: log_request_response() got an unexpected keyword argument 'method'
+2025-07-26 19:46:00,699 [INFO] 127.0.0.1 - - [26/Jul/2025 19:46:00] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+2025-07-26 19:46:00,758 [ERROR] Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "C:\Users\Usuario\OneDrive\Documentos\8vo Cuatrimestre\SDA\micro\venv\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Usuario\OneDrive\Documentos\8vo Cuatrimestre\SDA\micro\venv\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Usuario\OneDrive\Documentos\8vo Cuatrimestre\SDA\micro\venv\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Usuario\OneDrive\Documentos\8vo Cuatrimestre\SDA\micro\venv\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Usuario\OneDrive\Documentos\8vo Cuatrimestre\SDA\micro\venv\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\Usuario\OneDrive\Documentos\8vo Cuatrimestre\SDA\micro\api_gateway\app.py", line 44, in auth_proxy
+    log_request_response(path=f"/auth/{path}",
+TypeError: log_request_response() got an unexpected keyword argument 'method'
+2025-07-26 19:46:00,760 [INFO] 127.0.0.1 - - [26/Jul/2025 19:46:00] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+2025-07-26 19:46:00,967 [ERROR] Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "C:\Users\Usuario\OneDrive\Documentos\8vo Cuatrimestre\SDA\micro\venv\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Usuario\OneDrive\Documentos\8vo Cuatrimestre\SDA\micro\venv\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Usuario\OneDrive\Documentos\8vo Cuatrimestre\SDA\micro\venv\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Usuario\OneDrive\Documentos\8vo Cuatrimestre\SDA\micro\venv\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Usuario\OneDrive\Documentos\8vo Cuatrimestre\SDA\micro\venv\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\Usuario\OneDrive\Documentos\8vo Cuatrimestre\SDA\micro\api_gateway\app.py", line 44, in auth_proxy
+    log_request_response(path=f"/auth/{path}",
+TypeError: log_request_response() got an unexpected keyword argument 'method'
+2025-07-26 19:46:00,970 [INFO] 127.0.0.1 - - [26/Jul/2025 19:46:00] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+2025-07-26 19:46:02,917 [INFO] 127.0.0.1 - - [26/Jul/2025 19:46:02] "OPTIONS /auth/register HTTP/1.1" 200 -
+2025-07-26 19:46:03,214 [ERROR] Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "C:\Users\Usuario\OneDrive\Documentos\8vo Cuatrimestre\SDA\micro\venv\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Usuario\OneDrive\Documentos\8vo Cuatrimestre\SDA\micro\venv\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Usuario\OneDrive\Documentos\8vo Cuatrimestre\SDA\micro\venv\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Usuario\OneDrive\Documentos\8vo Cuatrimestre\SDA\micro\venv\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Usuario\OneDrive\Documentos\8vo Cuatrimestre\SDA\micro\venv\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\Usuario\OneDrive\Documentos\8vo Cuatrimestre\SDA\micro\api_gateway\app.py", line 44, in auth_proxy
+    log_request_response(path=f"/auth/{path}",
+TypeError: log_request_response() got an unexpected keyword argument 'method'
+2025-07-26 19:46:03,216 [INFO] 127.0.0.1 - - [26/Jul/2025 19:46:03] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+2025-07-26 19:46:32,022 [INFO] 127.0.0.1 - - [26/Jul/2025 19:46:32] "OPTIONS /auth/register HTTP/1.1" 200 -
+2025-07-26 19:46:32,434 [ERROR] Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "C:\Users\Usuario\OneDrive\Documentos\8vo Cuatrimestre\SDA\micro\venv\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Usuario\OneDrive\Documentos\8vo Cuatrimestre\SDA\micro\venv\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Usuario\OneDrive\Documentos\8vo Cuatrimestre\SDA\micro\venv\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Usuario\OneDrive\Documentos\8vo Cuatrimestre\SDA\micro\venv\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Usuario\OneDrive\Documentos\8vo Cuatrimestre\SDA\micro\venv\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\Usuario\OneDrive\Documentos\8vo Cuatrimestre\SDA\micro\api_gateway\app.py", line 44, in auth_proxy
+    log_request_response(path=f"/auth/{path}",
+TypeError: log_request_response() got an unexpected keyword argument 'method'
+2025-07-26 19:46:32,436 [INFO] 127.0.0.1 - - [26/Jul/2025 19:46:32] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+2025-07-26 19:46:59,797 [INFO] 127.0.0.1 - - [26/Jul/2025 19:46:59] "OPTIONS /auth/register HTTP/1.1" 200 -
+2025-07-26 19:47:00,142 [ERROR] Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "C:\Users\Usuario\OneDrive\Documentos\8vo Cuatrimestre\SDA\micro\venv\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Usuario\OneDrive\Documentos\8vo Cuatrimestre\SDA\micro\venv\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Usuario\OneDrive\Documentos\8vo Cuatrimestre\SDA\micro\venv\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Usuario\OneDrive\Documentos\8vo Cuatrimestre\SDA\micro\venv\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Usuario\OneDrive\Documentos\8vo Cuatrimestre\SDA\micro\venv\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\Usuario\OneDrive\Documentos\8vo Cuatrimestre\SDA\micro\api_gateway\app.py", line 44, in auth_proxy
+    log_request_response(path=f"/auth/{path}",
+TypeError: log_request_response() got an unexpected keyword argument 'method'
+2025-07-26 19:47:00,144 [INFO] 127.0.0.1 - - [26/Jul/2025 19:47:00] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+2025-07-26 20:56:40,328 [INFO] Gateway iniciado en http://localhost:5000
+2025-07-26 20:56:40,469 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-26 20:56:40,469 [INFO] [33mPress CTRL+C to quit[0m
+2025-07-26 20:58:23,934 [INFO] 127.0.0.1 - - [26/Jul/2025 20:58:23] "OPTIONS /auth/register HTTP/1.1" 200 -
+2025-07-26 20:58:26,157 [INFO] POST /auth/register -> 502 en 2.08s | Usuario: anónimo
+2025-07-26 20:58:26,160 [INFO] 127.0.0.1 - - [26/Jul/2025 20:58:26] "[35m[1mPOST /auth/register HTTP/1.1[0m" 502 -
+2025-07-26 20:59:14,792 [INFO] 127.0.0.1 - - [26/Jul/2025 20:59:14] "OPTIONS /auth/register HTTP/1.1" 200 -
+2025-07-26 20:59:15,704 [INFO] POST /auth/register -> 201 en 0.57s | Usuario: anónimo
+2025-07-26 20:59:15,708 [INFO] 127.0.0.1 - - [26/Jul/2025 20:59:15] "[35m[1mPOST /auth/register HTTP/1.1[0m" 201 -
+2025-07-26 21:05:55,193 [INFO] 127.0.0.1 - - [26/Jul/2025 21:05:55] "OPTIONS /auth/login HTTP/1.1" 200 -
+2025-07-26 21:05:55,444 [INFO] POST /auth/login -> 200 en 0.07s | Usuario: anónimo
+2025-07-26 21:05:55,446 [INFO] 127.0.0.1 - - [26/Jul/2025 21:05:55] "POST /auth/login HTTP/1.1" 200 -
+2025-08-05 19:18:40,353 [INFO] Gateway iniciado en http://localhost:5000
+2025-08-05 19:18:40,654 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-05 19:18:40,654 [INFO] [33mPress CTRL+C to quit[0m
+2025-08-05 19:37:47,753 [INFO] Gateway iniciado en http://localhost:5000
+2025-08-05 19:37:47,892 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-05 19:37:47,892 [INFO] [33mPress CTRL+C to quit[0m
+2025-08-05 19:54:29,336 [INFO] 127.0.0.1 - - [05/Aug/2025 19:54:29] "OPTIONS /auth/register HTTP/1.1" 200 -
+2025-08-05 19:54:30,717 [INFO] POST /auth/register -> 201 en 1.32s | Usuario: anónimo
+2025-08-05 19:54:30,720 [INFO] 127.0.0.1 - - [05/Aug/2025 19:54:30] "[35m[1mPOST /auth/register HTTP/1.1[0m" 201 -
+2025-08-05 19:55:15,298 [INFO] 127.0.0.1 - - [05/Aug/2025 19:55:15] "OPTIONS /auth/login HTTP/1.1" 200 -
+2025-08-05 19:55:16,137 [INFO] POST /auth/login -> 200 en 0.74s | Usuario: anónimo
+2025-08-05 19:55:16,140 [INFO] 127.0.0.1 - - [05/Aug/2025 19:55:16] "POST /auth/login HTTP/1.1" 200 -
+2025-08-06 21:25:17,581 [INFO] 127.0.0.1 - - [06/Aug/2025 21:25:17] "OPTIONS /auth/register_user HTTP/1.1" 200 -
+2025-08-06 21:25:17,800 [INFO] POST /auth/register_user -> 404 en 0.17s | Usuario: anónimo
+2025-08-06 21:25:17,804 [INFO] 127.0.0.1 - - [06/Aug/2025 21:25:17] "[33mPOST /auth/register_user HTTP/1.1[0m" 404 -
+2025-08-06 21:25:37,299 [INFO] 127.0.0.1 - - [06/Aug/2025 21:25:37] "OPTIONS /auth/register_user HTTP/1.1" 200 -
+2025-08-06 21:25:37,631 [INFO] POST /auth/register_user -> 404 en 0.08s | Usuario: anónimo
+2025-08-06 21:25:37,632 [INFO] 127.0.0.1 - - [06/Aug/2025 21:25:37] "[33mPOST /auth/register_user HTTP/1.1[0m" 404 -
+2025-08-06 21:25:49,472 [INFO] 127.0.0.1 - - [06/Aug/2025 21:25:49] "OPTIONS /auth/register_user HTTP/1.1" 200 -
+2025-08-06 21:25:49,745 [INFO] POST /auth/register_user -> 404 en 0.01s | Usuario: anónimo
+2025-08-06 21:25:49,746 [INFO] 127.0.0.1 - - [06/Aug/2025 21:25:49] "[33mPOST /auth/register_user HTTP/1.1[0m" 404 -
+2025-08-07 14:57:02,116 [INFO] Gateway iniciado en http://localhost:5000
+2025-08-07 14:57:02,248 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-07 14:57:02,248 [INFO] [33mPress CTRL+C to quit[0m
+2025-08-07 14:57:46,966 [INFO] 127.0.0.1 - - [07/Aug/2025 14:57:46] "OPTIONS /auth/register HTTP/1.1" 200 -
+2025-08-07 14:57:47,688 [INFO] POST /auth/register -> 201 en 0.53s | Usuario: anónimo
+2025-08-07 14:57:47,691 [INFO] 127.0.0.1 - - [07/Aug/2025 14:57:47] "[35m[1mPOST /auth/register HTTP/1.1[0m" 201 -
+2025-08-07 15:25:17,780 [INFO] Gateway iniciado en http://localhost:5000
+2025-08-07 15:25:17,898 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-07 15:25:17,898 [INFO] [33mPress CTRL+C to quit[0m
+2025-08-07 15:35:58,925 [INFO] 127.0.0.1 - - [07/Aug/2025 15:35:58] "OPTIONS /auth/register HTTP/1.1" 200 -
+2025-08-07 15:35:59,494 [INFO] POST /auth/register -> 201 en 0.45s | Usuario: anónimo
+2025-08-07 15:35:59,496 [INFO] 127.0.0.1 - - [07/Aug/2025 15:35:59] "[35m[1mPOST /auth/register HTTP/1.1[0m" 201 -
+2025-08-07 15:37:25,610 [INFO] 127.0.0.1 - - [07/Aug/2025 15:37:25] "OPTIONS /auth/login HTTP/1.1" 200 -
+2025-08-07 15:37:25,890 [INFO] POST /auth/login -> 200 en 0.02s | Usuario: anónimo
+2025-08-07 15:37:25,891 [INFO] 127.0.0.1 - - [07/Aug/2025 15:37:25] "POST /auth/login HTTP/1.1" 200 -
+2025-08-07 22:03:57,266 [INFO] 127.0.0.1 - - [07/Aug/2025 22:03:57] "OPTIONS /auth/login HTTP/1.1" 200 -
+2025-08-07 22:03:57,528 [INFO] POST /auth/login -> 200 en 0.10s | Usuario: anónimo
+2025-08-07 22:03:57,530 [INFO] 127.0.0.1 - - [07/Aug/2025 22:03:57] "POST /auth/login HTTP/1.1" 200 -
+2025-08-07 22:31:38,915 [INFO] 127.0.0.1 - - [07/Aug/2025 22:31:38] "OPTIONS /auth/login HTTP/1.1" 200 -
+2025-08-07 22:31:39,197 [INFO] POST /auth/login -> 200 en 0.16s | Usuario: anónimo
+2025-08-07 22:31:39,199 [INFO] 127.0.0.1 - - [07/Aug/2025 22:31:39] "POST /auth/login HTTP/1.1" 200 -
+2025-08-07 22:48:55,479 [INFO] 127.0.0.1 - - [07/Aug/2025 22:48:55] "OPTIONS /auth/login HTTP/1.1" 200 -
+2025-08-07 22:48:56,156 [INFO] POST /auth/login -> 200 en 0.59s | Usuario: anónimo
+2025-08-07 22:48:56,163 [INFO] 127.0.0.1 - - [07/Aug/2025 22:48:56] "POST /auth/login HTTP/1.1" 200 -
+2025-08-07 23:07:09,416 [INFO] 127.0.0.1 - - [07/Aug/2025 23:07:09] "OPTIONS /auth/login HTTP/1.1" 200 -
+2025-08-07 23:07:09,906 [INFO] POST /auth/login -> 401 en 0.43s | Usuario: anónimo
+2025-08-07 23:07:09,920 [INFO] 127.0.0.1 - - [07/Aug/2025 23:07:09] "[31m[1mPOST /auth/login HTTP/1.1[0m" 401 -
+2025-08-07 23:07:13,018 [INFO] POST /auth/login -> 200 en 0.03s | Usuario: anónimo
+2025-08-07 23:07:13,020 [INFO] 127.0.0.1 - - [07/Aug/2025 23:07:13] "POST /auth/login HTTP/1.1" 200 -
+2025-08-07 23:07:54,429 [INFO] 127.0.0.1 - - [07/Aug/2025 23:07:54] "OPTIONS /auth/login HTTP/1.1" 200 -
+2025-08-07 23:07:54,701 [INFO] POST /auth/login -> 200 en 0.02s | Usuario: anónimo
+2025-08-07 23:07:54,708 [INFO] 127.0.0.1 - - [07/Aug/2025 23:07:54] "POST /auth/login HTTP/1.1" 200 -
+2025-08-07 23:20:05,458 [INFO] 127.0.0.1 - - [07/Aug/2025 23:20:05] "OPTIONS /auth/login HTTP/1.1" 200 -
+2025-08-07 23:20:05,753 [INFO] POST /auth/login -> 200 en 0.11s | Usuario: anónimo
+2025-08-07 23:20:05,757 [INFO] 127.0.0.1 - - [07/Aug/2025 23:20:05] "POST /auth/login HTTP/1.1" 200 -
+2025-08-07 23:30:41,638 [INFO] 127.0.0.1 - - [07/Aug/2025 23:30:41] "OPTIONS /auth/login HTTP/1.1" 200 -
+2025-08-07 23:30:41,923 [INFO] POST /auth/login -> 200 en 0.11s | Usuario: anónimo
+2025-08-07 23:30:41,929 [INFO] 127.0.0.1 - - [07/Aug/2025 23:30:41] "POST /auth/login HTTP/1.1" 200 -
+2025-08-08 00:56:37,052 [INFO] 127.0.0.1 - - [08/Aug/2025 00:56:37] "OPTIONS /auth/login HTTP/1.1" 200 -
+2025-08-08 00:56:37,979 [INFO] POST /auth/login -> 200 en 0.52s | Usuario: anónimo
+2025-08-08 00:56:37,994 [INFO] 127.0.0.1 - - [08/Aug/2025 00:56:37] "POST /auth/login HTTP/1.1" 200 -
+2025-08-08 01:03:13,733 [INFO] 127.0.0.1 - - [08/Aug/2025 01:03:13] "OPTIONS /auth/login HTTP/1.1" 200 -
+2025-08-08 01:03:14,024 [INFO] POST /auth/login -> 200 en 0.09s | Usuario: anónimo
+2025-08-08 01:03:14,029 [INFO] 127.0.0.1 - - [08/Aug/2025 01:03:14] "POST /auth/login HTTP/1.1" 200 -
+2025-08-08 02:21:04,373 [INFO] Gateway iniciado en http://localhost:5000
+2025-08-08 02:21:04,494 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-08 02:21:04,495 [INFO] [33mPress CTRL+C to quit[0m
+2025-08-08 02:21:52,838 [INFO] 127.0.0.1 - - [08/Aug/2025 02:21:52] "OPTIONS /auth/register HTTP/1.1" 200 -
+2025-08-08 02:21:53,464 [INFO] POST /auth/register -> 201 en 0.37s | Usuario: anónimo
+2025-08-08 02:21:53,466 [INFO] 127.0.0.1 - - [08/Aug/2025 02:21:53] "[35m[1mPOST /auth/register HTTP/1.1[0m" 201 -
+2025-08-08 02:22:24,589 [INFO] 127.0.0.1 - - [08/Aug/2025 02:22:24] "OPTIONS /auth/login HTTP/1.1" 200 -
+2025-08-08 02:22:24,871 [INFO] POST /auth/login -> 401 en 0.01s | Usuario: anónimo
+2025-08-08 02:22:24,873 [INFO] 127.0.0.1 - - [08/Aug/2025 02:22:24] "[31m[1mPOST /auth/login HTTP/1.1[0m" 401 -
+2025-08-08 02:22:28,272 [INFO] POST /auth/login -> 200 en 0.01s | Usuario: anónimo
+2025-08-08 02:22:28,274 [INFO] 127.0.0.1 - - [08/Aug/2025 02:22:28] "POST /auth/login HTTP/1.1" 200 -
+2025-08-08 02:22:29,501 [INFO] 127.0.0.1 - - [08/Aug/2025 02:22:29] "[33mOPTIONS /tasks HTTP/1.1[0m" 404 -
+2025-08-08 02:23:22,747 [INFO] 127.0.0.1 - - [08/Aug/2025 02:23:22] "[33mOPTIONS /tasks HTTP/1.1[0m" 404 -
+2025-08-08 02:23:32,932 [INFO] 127.0.0.1 - - [08/Aug/2025 02:23:32] "[33mOPTIONS /tasks HTTP/1.1[0m" 404 -
+2025-08-09 01:34:37,231 [INFO] Gateway iniciado en http://localhost:5000
+2025-08-09 01:34:37,499 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-09 01:34:37,500 [INFO] [33mPress CTRL+C to quit[0m
+2025-08-09 01:50:54,973 [INFO] 127.0.0.1 - - [09/Aug/2025 01:50:54] "OPTIONS /auth/register HTTP/1.1" 200 -
+2025-08-09 01:50:56,436 [INFO] POST /auth/register -> 201 en 1.37s | Usuario: anónimo
+2025-08-09 01:50:56,456 [INFO] 127.0.0.1 - - [09/Aug/2025 01:50:56] "[35m[1mPOST /auth/register HTTP/1.1[0m" 201 -
+2025-08-09 01:51:27,885 [INFO] 127.0.0.1 - - [09/Aug/2025 01:51:27] "OPTIONS /auth/login HTTP/1.1" 200 -
+2025-08-09 01:51:28,247 [INFO] POST /auth/login -> 200 en 0.25s | Usuario: anónimo
+2025-08-09 01:51:28,256 [INFO] 127.0.0.1 - - [09/Aug/2025 01:51:28] "POST /auth/login HTTP/1.1" 200 -
+2025-08-09 01:51:29,524 [INFO] 127.0.0.1 - - [09/Aug/2025 01:51:29] "[33mOPTIONS /tasks HTTP/1.1[0m" 404 -
+2025-08-09 01:52:02,917 [INFO] 127.0.0.1 - - [09/Aug/2025 01:52:02] "[33mOPTIONS /tasks HTTP/1.1[0m" 404 -
+2025-08-09 01:52:32,586 [INFO] 127.0.0.1 - - [09/Aug/2025 01:52:32] "[33mOPTIONS /tasks HTTP/1.1[0m" 404 -
+2025-08-09 02:18:13,320 [INFO] Gateway iniciado en http://localhost:5000
+2025-08-09 02:18:13,401 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-09 02:18:13,402 [INFO] [33mPress CTRL+C to quit[0m
+2025-08-09 04:06:48,940 [INFO] Gateway iniciado en http://localhost:5000
+2025-08-09 04:06:48,993 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-09 04:06:48,994 [INFO] [33mPress CTRL+C to quit[0m
+2025-08-09 04:10:52,511 [INFO] 127.0.0.1 - - [09/Aug/2025 04:10:52] "OPTIONS /auth/register HTTP/1.1" 200 -
+2025-08-09 04:10:52,920 [INFO] POST /auth/register -> 201 en 0.33s | Usuario: anónimo
+2025-08-09 04:10:52,924 [INFO] 127.0.0.1 - - [09/Aug/2025 04:10:52] "[35m[1mPOST /auth/register HTTP/1.1[0m" 201 -
+2025-08-09 04:11:18,157 [INFO] 127.0.0.1 - - [09/Aug/2025 04:11:18] "OPTIONS /auth/login HTTP/1.1" 200 -
+2025-08-09 04:11:18,415 [INFO] POST /auth/login -> 200 en 0.02s | Usuario: anónimo
+2025-08-09 04:11:18,416 [INFO] 127.0.0.1 - - [09/Aug/2025 04:11:18] "POST /auth/login HTTP/1.1" 200 -
+2025-08-09 04:11:52,992 [INFO] 127.0.0.1 - - [09/Aug/2025 04:11:52] "OPTIONS /auth/login HTTP/1.1" 200 -
+2025-08-09 04:11:53,259 [INFO] POST /auth/login -> 200 en 0.01s | Usuario: anónimo
+2025-08-09 04:11:53,260 [INFO] 127.0.0.1 - - [09/Aug/2025 04:11:53] "POST /auth/login HTTP/1.1" 200 -
+2025-08-09 04:11:53,993 [INFO] 127.0.0.1 - - [09/Aug/2025 04:11:53] "OPTIONS /tasks HTTP/1.1" 200 -
+2025-08-09 04:11:54,489 [INFO] GET /tasks -> 403 en 0.47s | Usuario: anónimo
+2025-08-09 04:11:54,491 [INFO] 127.0.0.1 - - [09/Aug/2025 04:11:54] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+2025-08-09 04:12:14,408 [INFO] 127.0.0.1 - - [09/Aug/2025 04:12:14] "OPTIONS /auth/login HTTP/1.1" 200 -
+2025-08-09 04:12:14,673 [INFO] POST /auth/login -> 200 en 0.01s | Usuario: anónimo
+2025-08-09 04:12:14,674 [INFO] 127.0.0.1 - - [09/Aug/2025 04:12:14] "POST /auth/login HTTP/1.1" 200 -
+2025-08-09 04:12:14,758 [INFO] 127.0.0.1 - - [09/Aug/2025 04:12:14] "OPTIONS /tasks HTTP/1.1" 200 -
+2025-08-09 04:12:14,820 [INFO] GET /tasks -> 403 en 0.05s | Usuario: anónimo
+2025-08-09 04:12:14,822 [INFO] 127.0.0.1 - - [09/Aug/2025 04:12:14] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+2025-08-09 04:12:56,417 [INFO] 127.0.0.1 - - [09/Aug/2025 04:12:56] "OPTIONS /auth/login HTTP/1.1" 200 -
+2025-08-09 04:12:56,686 [INFO] POST /auth/login -> 200 en 0.01s | Usuario: anónimo
+2025-08-09 04:12:56,687 [INFO] 127.0.0.1 - - [09/Aug/2025 04:12:56] "POST /auth/login HTTP/1.1" 200 -
+2025-08-09 04:12:57,054 [INFO] 127.0.0.1 - - [09/Aug/2025 04:12:57] "OPTIONS /tasks HTTP/1.1" 200 -
+2025-08-09 04:12:57,144 [INFO] GET /tasks -> 403 en 0.07s | Usuario: anónimo
+2025-08-09 04:12:57,145 [INFO] 127.0.0.1 - - [09/Aug/2025 04:12:57] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+2025-08-09 04:15:19,808 [INFO] 127.0.0.1 - - [09/Aug/2025 04:15:19] "OPTIONS /auth/login HTTP/1.1" 200 -
+2025-08-09 04:15:20,132 [INFO] POST /auth/login -> 200 en 0.25s | Usuario: anónimo
+2025-08-09 04:15:20,139 [INFO] 127.0.0.1 - - [09/Aug/2025 04:15:20] "POST /auth/login HTTP/1.1" 200 -
+2025-08-09 04:15:21,406 [INFO] 127.0.0.1 - - [09/Aug/2025 04:15:21] "OPTIONS /tasks HTTP/1.1" 200 -
+2025-08-09 04:15:21,576 [INFO] GET /tasks -> 403 en 0.11s | Usuario: anónimo
+2025-08-09 04:15:21,578 [INFO] 127.0.0.1 - - [09/Aug/2025 04:15:21] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+2025-08-09 13:58:14,655 [INFO] 127.0.0.1 - - [09/Aug/2025 13:58:14] "OPTIONS /auth/login HTTP/1.1" 200 -
+2025-08-09 13:58:14,929 [INFO] POST /auth/login -> 200 en 0.14s | Usuario: anónimo
+2025-08-09 13:58:14,933 [INFO] 127.0.0.1 - - [09/Aug/2025 13:58:14] "POST /auth/login HTTP/1.1" 200 -
+2025-08-09 13:58:15,899 [INFO] 127.0.0.1 - - [09/Aug/2025 13:58:15] "OPTIONS /tasks HTTP/1.1" 200 -
+2025-08-09 13:58:16,187 [INFO] GET /tasks -> 403 en 0.25s | Usuario: anónimo
+2025-08-09 13:58:16,188 [INFO] 127.0.0.1 - - [09/Aug/2025 13:58:16] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+2025-08-09 13:58:17,798 [INFO] POST /auth/login -> 401 en 0.01s | Usuario: anónimo
+2025-08-09 13:58:17,799 [INFO] 127.0.0.1 - - [09/Aug/2025 13:58:17] "[31m[1mPOST /auth/login HTTP/1.1[0m" 401 -
+2025-08-09 13:58:41,506 [INFO] 127.0.0.1 - - [09/Aug/2025 13:58:41] "OPTIONS /auth/login HTTP/1.1" 200 -
+2025-08-09 13:58:41,796 [INFO] POST /auth/login -> 401 en 0.02s | Usuario: anónimo
+2025-08-09 13:58:41,799 [INFO] 127.0.0.1 - - [09/Aug/2025 13:58:41] "[31m[1mPOST /auth/login HTTP/1.1[0m" 401 -
+2025-08-09 13:59:11,207 [INFO] 127.0.0.1 - - [09/Aug/2025 13:59:11] "OPTIONS /auth/login HTTP/1.1" 200 -
+2025-08-09 13:59:11,503 [INFO] POST /auth/login -> 200 en 0.02s | Usuario: anónimo
+2025-08-09 13:59:11,504 [INFO] 127.0.0.1 - - [09/Aug/2025 13:59:11] "POST /auth/login HTTP/1.1" 200 -
+2025-08-09 13:59:11,655 [INFO] 127.0.0.1 - - [09/Aug/2025 13:59:11] "OPTIONS /tasks HTTP/1.1" 200 -
+2025-08-09 13:59:11,731 [INFO] GET /tasks -> 403 en 0.05s | Usuario: anónimo
+2025-08-09 13:59:11,732 [INFO] 127.0.0.1 - - [09/Aug/2025 13:59:11] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+2025-08-09 14:42:21,962 [INFO] 127.0.0.1 - - [09/Aug/2025 14:42:21] "OPTIONS /auth/login HTTP/1.1" 200 -
+2025-08-09 14:42:22,263 [INFO] POST /auth/login -> 200 en 0.18s | Usuario: anónimo
+2025-08-09 14:42:22,267 [INFO] 127.0.0.1 - - [09/Aug/2025 14:42:22] "POST /auth/login HTTP/1.1" 200 -
+2025-08-09 14:42:23,411 [INFO] 127.0.0.1 - - [09/Aug/2025 14:42:23] "OPTIONS /tasks HTTP/1.1" 200 -
+2025-08-09 14:42:23,834 [INFO] GET /tasks -> 403 en 0.39s | Usuario: anónimo
+2025-08-09 14:42:23,836 [INFO] 127.0.0.1 - - [09/Aug/2025 14:42:23] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+2025-08-09 14:43:48,251 [INFO] 127.0.0.1 - - [09/Aug/2025 14:43:48] "OPTIONS /auth/login HTTP/1.1" 200 -
+2025-08-09 14:43:48,490 [INFO] POST /auth/login -> 200 en 0.01s | Usuario: anónimo
+2025-08-09 14:43:48,491 [INFO] 127.0.0.1 - - [09/Aug/2025 14:43:48] "POST /auth/login HTTP/1.1" 200 -
+2025-08-09 14:43:48,877 [INFO] 127.0.0.1 - - [09/Aug/2025 14:43:48] "OPTIONS /tasks HTTP/1.1" 200 -
+2025-08-09 14:43:48,952 [INFO] GET /tasks -> 403 en 0.06s | Usuario: anónimo
+2025-08-09 14:43:48,954 [INFO] 127.0.0.1 - - [09/Aug/2025 14:43:48] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+2025-08-09 14:45:28,268 [INFO] 127.0.0.1 - - [09/Aug/2025 14:45:28] "OPTIONS /auth/login HTTP/1.1" 200 -
+2025-08-09 14:45:28,626 [INFO] POST /auth/login -> 200 en 0.11s | Usuario: anónimo
+2025-08-09 14:45:28,627 [INFO] 127.0.0.1 - - [09/Aug/2025 14:45:28] "POST /auth/login HTTP/1.1" 200 -
+2025-08-09 14:45:28,994 [INFO] 127.0.0.1 - - [09/Aug/2025 14:45:28] "OPTIONS /tasks HTTP/1.1" 200 -
+2025-08-09 14:45:29,138 [INFO] GET /tasks -> 403 en 0.12s | Usuario: anónimo
+2025-08-09 14:45:29,139 [INFO] 127.0.0.1 - - [09/Aug/2025 14:45:29] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+2025-08-09 14:48:34,120 [INFO] 127.0.0.1 - - [09/Aug/2025 14:48:34] "OPTIONS /auth/login HTTP/1.1" 200 -
+2025-08-09 14:48:34,416 [INFO] POST /auth/login -> 401 en 0.12s | Usuario: anónimo
+2025-08-09 14:48:34,420 [INFO] 127.0.0.1 - - [09/Aug/2025 14:48:34] "[31m[1mPOST /auth/login HTTP/1.1[0m" 401 -
+2025-08-09 14:48:44,034 [INFO] 127.0.0.1 - - [09/Aug/2025 14:48:44] "OPTIONS /auth/login HTTP/1.1" 200 -
+2025-08-09 14:48:44,317 [INFO] POST /auth/login -> 200 en 0.01s | Usuario: anónimo
+2025-08-09 14:48:44,318 [INFO] 127.0.0.1 - - [09/Aug/2025 14:48:44] "POST /auth/login HTTP/1.1" 200 -
+2025-08-09 14:48:44,853 [INFO] 127.0.0.1 - - [09/Aug/2025 14:48:44] "OPTIONS /tasks HTTP/1.1" 200 -
+2025-08-09 14:48:45,111 [INFO] GET /tasks -> 403 en 0.22s | Usuario: anónimo
+2025-08-09 14:48:45,113 [INFO] 127.0.0.1 - - [09/Aug/2025 14:48:45] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+2025-08-09 15:10:07,429 [INFO] Gateway iniciado en http://localhost:5000
+2025-08-09 15:10:07,631 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-09 15:10:07,631 [INFO] [33mPress CTRL+C to quit[0m
+2025-08-09 15:14:56,727 [INFO] 127.0.0.1 - - [09/Aug/2025 15:14:56] "OPTIONS /auth/register HTTP/1.1" 200 -
+2025-08-09 15:14:58,734 [INFO] POST /auth/register -> 201 en 1.89s | Usuario: anónimo
+2025-08-09 15:14:58,742 [INFO] 127.0.0.1 - - [09/Aug/2025 15:14:58] "[35m[1mPOST /auth/register HTTP/1.1[0m" 201 -
+2025-08-09 15:15:58,606 [INFO] 127.0.0.1 - - [09/Aug/2025 15:15:58] "OPTIONS /auth/login HTTP/1.1" 200 -
+2025-08-09 15:15:58,889 [INFO] POST /auth/login -> 200 en 0.02s | Usuario: anónimo
+2025-08-09 15:15:58,890 [INFO] 127.0.0.1 - - [09/Aug/2025 15:15:58] "POST /auth/login HTTP/1.1" 200 -
+2025-08-09 15:15:59,784 [INFO] 127.0.0.1 - - [09/Aug/2025 15:15:59] "OPTIONS /tasks HTTP/1.1" 200 -
+2025-08-09 15:16:00,243 [INFO] GET /tasks -> 200 en 0.44s | Usuario: anónimo
+2025-08-09 15:16:00,244 [INFO] 127.0.0.1 - - [09/Aug/2025 15:16:00] "GET /tasks HTTP/1.1" 200 -
+2025-08-09 15:16:25,096 [INFO] 127.0.0.1 - - [09/Aug/2025 15:16:25] "OPTIONS /tasks HTTP/1.1" 200 -
+2025-08-09 15:16:25,308 [INFO] POST /tasks -> 500 en 0.17s | Usuario: anónimo
+2025-08-09 15:16:25,312 [INFO] 127.0.0.1 - - [09/Aug/2025 15:16:25] "[35m[1mPOST /tasks HTTP/1.1[0m" 500 -
+2025-08-09 15:17:10,008 [INFO] 127.0.0.1 - - [09/Aug/2025 15:17:10] "OPTIONS /tasks HTTP/1.1" 200 -
+2025-08-09 15:17:11,474 [INFO] GET /tasks -> 403 en 1.13s | Usuario: anónimo
+2025-08-09 15:17:11,533 [INFO] 127.0.0.1 - - [09/Aug/2025 15:17:11] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+2025-08-09 15:24:23,764 [INFO] 127.0.0.1 - - [09/Aug/2025 15:24:23] "OPTIONS /auth/login HTTP/1.1" 200 -
+2025-08-09 15:24:24,072 [INFO] POST /auth/login -> 401 en 0.09s | Usuario: anónimo
+2025-08-09 15:24:24,075 [INFO] 127.0.0.1 - - [09/Aug/2025 15:24:24] "[31m[1mPOST /auth/login HTTP/1.1[0m" 401 -
+2025-08-09 15:25:06,692 [INFO] 127.0.0.1 - - [09/Aug/2025 15:25:06] "OPTIONS /auth/login HTTP/1.1" 200 -
+2025-08-09 15:25:06,958 [INFO] POST /auth/login -> 401 en 0.01s | Usuario: anónimo
+2025-08-09 15:25:06,959 [INFO] 127.0.0.1 - - [09/Aug/2025 15:25:06] "[31m[1mPOST /auth/login HTTP/1.1[0m" 401 -
+2025-08-09 15:25:44,989 [INFO] 127.0.0.1 - - [09/Aug/2025 15:25:44] "OPTIONS /auth/register HTTP/1.1" 200 -
+2025-08-09 15:25:45,501 [INFO] POST /auth/register -> 201 en 0.23s | Usuario: anónimo
+2025-08-09 15:25:45,508 [INFO] 127.0.0.1 - - [09/Aug/2025 15:25:45] "[35m[1mPOST /auth/register HTTP/1.1[0m" 201 -
+2025-08-09 15:26:10,100 [INFO] 127.0.0.1 - - [09/Aug/2025 15:26:10] "OPTIONS /auth/login HTTP/1.1" 200 -
+2025-08-09 15:26:10,379 [INFO] POST /auth/login -> 200 en 0.02s | Usuario: anónimo
+2025-08-09 15:26:10,380 [INFO] 127.0.0.1 - - [09/Aug/2025 15:26:10] "POST /auth/login HTTP/1.1" 200 -
+2025-08-09 15:26:10,771 [INFO] 127.0.0.1 - - [09/Aug/2025 15:26:10] "OPTIONS /tasks HTTP/1.1" 200 -
+2025-08-09 15:26:11,045 [INFO] GET /tasks -> 200 en 0.25s | Usuario: anónimo
+2025-08-09 15:26:11,048 [INFO] 127.0.0.1 - - [09/Aug/2025 15:26:11] "GET /tasks HTTP/1.1" 200 -
+2025-08-09 15:26:28,916 [INFO] 127.0.0.1 - - [09/Aug/2025 15:26:28] "OPTIONS /tasks HTTP/1.1" 200 -
+2025-08-09 15:26:29,122 [INFO] POST /tasks -> 500 en 0.17s | Usuario: anónimo
+2025-08-09 15:26:29,126 [INFO] 127.0.0.1 - - [09/Aug/2025 15:26:29] "[35m[1mPOST /tasks HTTP/1.1[0m" 500 -
+2025-08-09 15:26:44,770 [INFO] 127.0.0.1 - - [09/Aug/2025 15:26:44] "OPTIONS /tasks HTTP/1.1" 200 -
+2025-08-09 15:26:44,873 [INFO] POST /tasks -> 500 en 0.07s | Usuario: anónimo
+2025-08-09 15:26:44,875 [INFO] 127.0.0.1 - - [09/Aug/2025 15:26:44] "[35m[1mPOST /tasks HTTP/1.1[0m" 500 -
+2025-08-09 15:29:51,297 [INFO] 127.0.0.1 - - [09/Aug/2025 15:29:51] "OPTIONS /tasks HTTP/1.1" 200 -
+2025-08-09 15:29:51,917 [INFO] GET /tasks -> 200 en 0.23s | Usuario: anónimo
+2025-08-09 15:29:51,921 [INFO] 127.0.0.1 - - [09/Aug/2025 15:29:51] "GET /tasks HTTP/1.1" 200 -
+2025-08-09 15:30:06,511 [INFO] 127.0.0.1 - - [09/Aug/2025 15:30:06] "OPTIONS /tasks HTTP/1.1" 200 -
+2025-08-09 15:30:06,622 [INFO] POST /tasks -> 201 en 0.06s | Usuario: anónimo
+2025-08-09 15:30:06,626 [INFO] 127.0.0.1 - - [09/Aug/2025 15:30:06] "[35m[1mPOST /tasks HTTP/1.1[0m" 201 -
+2025-08-09 15:30:08,800 [INFO] GET /tasks -> 200 en 0.05s | Usuario: anónimo
+2025-08-09 15:30:08,804 [INFO] 127.0.0.1 - - [09/Aug/2025 15:30:08] "GET /tasks HTTP/1.1" 200 -
+2025-08-09 15:37:36,747 [INFO] 127.0.0.1 - - [09/Aug/2025 15:37:36] "OPTIONS /tasks HTTP/1.1" 200 -
+2025-08-09 15:37:37,547 [INFO] GET /tasks -> 403 en 0.72s | Usuario: anónimo
+2025-08-09 15:37:37,557 [INFO] 127.0.0.1 - - [09/Aug/2025 15:37:37] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+2025-08-09 15:38:20,596 [INFO] 127.0.0.1 - - [09/Aug/2025 15:38:20] "OPTIONS /auth/register HTTP/1.1" 200 -
+2025-08-09 15:38:21,042 [INFO] POST /auth/register -> 201 en 0.17s | Usuario: anónimo
+2025-08-09 15:38:21,045 [INFO] 127.0.0.1 - - [09/Aug/2025 15:38:21] "[35m[1mPOST /auth/register HTTP/1.1[0m" 201 -
+2025-08-09 15:40:38,843 [INFO] 127.0.0.1 - - [09/Aug/2025 15:40:38] "OPTIONS /auth/login HTTP/1.1" 200 -
+2025-08-09 15:40:39,267 [INFO] POST /auth/login -> 500 en 0.23s | Usuario: anónimo
+2025-08-09 15:40:39,271 [INFO] 127.0.0.1 - - [09/Aug/2025 15:40:39] "[35m[1mPOST /auth/login HTTP/1.1[0m" 500 -
+2025-08-09 15:41:04,898 [INFO] 127.0.0.1 - - [09/Aug/2025 15:41:04] "OPTIONS /auth/register HTTP/1.1" 200 -
+2025-08-09 15:41:05,240 [INFO] POST /auth/register -> 201 en 0.08s | Usuario: anónimo
+2025-08-09 15:41:05,243 [INFO] 127.0.0.1 - - [09/Aug/2025 15:41:05] "[35m[1mPOST /auth/register HTTP/1.1[0m" 201 -
+2025-08-09 15:41:36,933 [INFO] 127.0.0.1 - - [09/Aug/2025 15:41:36] "OPTIONS /auth/login HTTP/1.1" 200 -
+2025-08-09 15:41:37,222 [INFO] POST /auth/login -> 200 en 0.01s | Usuario: anónimo
+2025-08-09 15:41:37,224 [INFO] 127.0.0.1 - - [09/Aug/2025 15:41:37] "POST /auth/login HTTP/1.1" 200 -
+2025-08-09 15:41:37,348 [INFO] 127.0.0.1 - - [09/Aug/2025 15:41:37] "OPTIONS /tasks HTTP/1.1" 200 -
+2025-08-09 15:41:37,503 [INFO] GET /tasks -> 200 en 0.13s | Usuario: anónimo
+2025-08-09 15:41:37,508 [INFO] 127.0.0.1 - - [09/Aug/2025 15:41:37] "GET /tasks HTTP/1.1" 200 -
+2025-08-09 15:41:58,769 [INFO] 127.0.0.1 - - [09/Aug/2025 15:41:58] "OPTIONS /tasks HTTP/1.1" 200 -
+2025-08-09 15:41:58,866 [INFO] POST /tasks -> 201 en 0.06s | Usuario: anónimo
+2025-08-09 15:41:58,867 [INFO] 127.0.0.1 - - [09/Aug/2025 15:41:58] "[35m[1mPOST /tasks HTTP/1.1[0m" 201 -
+2025-08-09 15:42:01,020 [INFO] GET /tasks -> 200 en 0.05s | Usuario: anónimo
+2025-08-09 15:42:01,031 [INFO] 127.0.0.1 - - [09/Aug/2025 15:42:01] "GET /tasks HTTP/1.1" 200 -
+2025-08-09 15:45:55,102 [INFO] 127.0.0.1 - - [09/Aug/2025 15:45:55] "OPTIONS /tasks HTTP/1.1" 200 -
+2025-08-09 15:45:55,352 [INFO] GET /tasks -> 403 en 0.22s | Usuario: anónimo
+2025-08-09 15:45:55,355 [INFO] 127.0.0.1 - - [09/Aug/2025 15:45:55] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+2025-08-09 15:47:21,588 [INFO] 127.0.0.1 - - [09/Aug/2025 15:47:21] "OPTIONS /auth/register HTTP/1.1" 200 -
+2025-08-09 15:47:22,000 [INFO] POST /auth/register -> 201 en 0.17s | Usuario: anónimo
+2025-08-09 15:47:22,004 [INFO] 127.0.0.1 - - [09/Aug/2025 15:47:22] "[35m[1mPOST /auth/register HTTP/1.1[0m" 201 -
+2025-08-09 15:47:58,242 [INFO] 127.0.0.1 - - [09/Aug/2025 15:47:58] "OPTIONS /auth/login HTTP/1.1" 200 -
+2025-08-09 15:47:58,497 [INFO] POST /auth/login -> 200 en 0.01s | Usuario: anónimo
+2025-08-09 15:47:58,500 [INFO] 127.0.0.1 - - [09/Aug/2025 15:47:58] "POST /auth/login HTTP/1.1" 200 -
+2025-08-09 15:47:58,581 [INFO] 127.0.0.1 - - [09/Aug/2025 15:47:58] "OPTIONS /tasks HTTP/1.1" 200 -
+2025-08-09 15:47:58,725 [INFO] GET /tasks -> 200 en 0.12s | Usuario: anónimo
+2025-08-09 15:47:58,728 [INFO] 127.0.0.1 - - [09/Aug/2025 15:47:58] "GET /tasks HTTP/1.1" 200 -
+2025-08-09 15:48:12,478 [INFO] 127.0.0.1 - - [09/Aug/2025 15:48:12] "OPTIONS /tasks HTTP/1.1" 200 -
+2025-08-09 15:48:12,552 [INFO] POST /tasks -> 201 en 0.04s | Usuario: anónimo
+2025-08-09 15:48:12,554 [INFO] 127.0.0.1 - - [09/Aug/2025 15:48:12] "[35m[1mPOST /tasks HTTP/1.1[0m" 201 -
+2025-08-09 15:48:14,667 [INFO] GET /tasks -> 200 en 0.04s | Usuario: anónimo
+2025-08-09 15:48:14,672 [INFO] 127.0.0.1 - - [09/Aug/2025 15:48:14] "GET /tasks HTTP/1.1" 200 -
+2025-08-09 16:31:40,385 [INFO] Gateway iniciado en http://localhost:5000
+2025-08-09 16:31:40,533 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-09 16:31:40,534 [INFO] [33mPress CTRL+C to quit[0m
+2025-08-09 16:44:00,367 [INFO] 127.0.0.1 - - [09/Aug/2025 16:44:00] "OPTIONS /auth/register HTTP/1.1" 200 -
+2025-08-09 16:44:00,864 [INFO] POST /auth/register -> 201 en 0.41s | Usuario: anónimo
+2025-08-09 16:44:00,866 [INFO] 127.0.0.1 - - [09/Aug/2025 16:44:00] "[35m[1mPOST /auth/register HTTP/1.1[0m" 201 -
+2025-08-09 16:45:45,288 [INFO] 127.0.0.1 - - [09/Aug/2025 16:45:45] "OPTIONS /auth/login HTTP/1.1" 200 -
+2025-08-09 16:45:45,570 [INFO] POST /auth/login -> 200 en 0.03s | Usuario: anónimo
+2025-08-09 16:45:45,571 [INFO] 127.0.0.1 - - [09/Aug/2025 16:45:45] "POST /auth/login HTTP/1.1" 200 -
+2025-08-09 16:45:46,987 [INFO] 127.0.0.1 - - [09/Aug/2025 16:45:46] "OPTIONS /tasks HTTP/1.1" 200 -
+2025-08-09 16:45:47,279 [INFO] GET /tasks -> 200 en 0.24s | Usuario: anónimo
+2025-08-09 16:45:47,283 [INFO] 127.0.0.1 - - [09/Aug/2025 16:45:47] "GET /tasks HTTP/1.1" 200 -
+2025-08-09 16:46:34,960 [INFO] 127.0.0.1 - - [09/Aug/2025 16:46:34] "OPTIONS /tasks HTTP/1.1" 200 -
+2025-08-09 16:46:35,056 [INFO] POST /tasks -> 201 en 0.06s | Usuario: anónimo
+2025-08-09 16:46:35,058 [INFO] 127.0.0.1 - - [09/Aug/2025 16:46:35] "[35m[1mPOST /tasks HTTP/1.1[0m" 201 -
+2025-08-09 16:46:37,182 [INFO] GET /tasks -> 200 en 0.03s | Usuario: anónimo
+2025-08-09 16:46:37,189 [INFO] 127.0.0.1 - - [09/Aug/2025 16:46:37] "GET /tasks HTTP/1.1" 200 -
+2025-08-09 16:46:58,082 [INFO] 127.0.0.1 - - [09/Aug/2025 16:46:58] "OPTIONS /tasks HTTP/1.1" 200 -
+2025-08-09 16:46:58,141 [INFO] GET /tasks -> 200 en 0.03s | Usuario: anónimo
+2025-08-09 16:46:58,144 [INFO] 127.0.0.1 - - [09/Aug/2025 16:46:58] "GET /tasks HTTP/1.1" 200 -
+2025-08-09 17:05:16,813 [INFO] 127.0.0.1 - - [09/Aug/2025 17:05:16] "OPTIONS /auth/login HTTP/1.1" 200 -
+2025-08-09 17:05:17,027 [INFO] POST /auth/login -> 200 en 0.08s | Usuario: anónimo
+2025-08-09 17:05:17,032 [INFO] 127.0.0.1 - - [09/Aug/2025 17:05:17] "POST /auth/login HTTP/1.1" 200 -
+2025-08-09 17:05:17,454 [INFO] 127.0.0.1 - - [09/Aug/2025 17:05:17] "OPTIONS /tasks HTTP/1.1" 200 -
+2025-08-09 17:05:17,576 [INFO] GET /tasks -> 200 en 0.10s | Usuario: anónimo
+2025-08-09 17:05:17,581 [INFO] 127.0.0.1 - - [09/Aug/2025 17:05:17] "GET /tasks HTTP/1.1" 200 -
+2025-08-09 17:05:37,757 [INFO] 127.0.0.1 - - [09/Aug/2025 17:05:37] "OPTIONS /tasks HTTP/1.1" 200 -
+2025-08-09 17:05:37,829 [INFO] POST /tasks -> 201 en 0.04s | Usuario: anónimo
+2025-08-09 17:05:37,831 [INFO] 127.0.0.1 - - [09/Aug/2025 17:05:37] "[35m[1mPOST /tasks HTTP/1.1[0m" 201 -
+2025-08-09 17:05:40,031 [INFO] GET /tasks -> 200 en 0.09s | Usuario: anónimo
+2025-08-09 17:05:40,036 [INFO] 127.0.0.1 - - [09/Aug/2025 17:05:40] "GET /tasks HTTP/1.1" 200 -
+2025-08-09 17:29:55,847 [INFO] 127.0.0.1 - - [09/Aug/2025 17:29:55] "OPTIONS /tasks HTTP/1.1" 200 -
+2025-08-09 17:29:56,612 [INFO] GET /tasks -> 403 en 0.68s | Usuario: anónimo
+2025-08-09 17:29:56,621 [INFO] 127.0.0.1 - - [09/Aug/2025 17:29:56] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+2025-08-09 17:35:53,266 [INFO] 127.0.0.1 - - [09/Aug/2025 17:35:53] "OPTIONS /auth/login HTTP/1.1" 200 -
+2025-08-09 17:35:53,541 [INFO] POST /auth/login -> 200 en 0.04s | Usuario: anónimo
+2025-08-09 17:35:53,543 [INFO] 127.0.0.1 - - [09/Aug/2025 17:35:53] "POST /auth/login HTTP/1.1" 200 -
+2025-08-09 17:35:53,695 [INFO] 127.0.0.1 - - [09/Aug/2025 17:35:53] "OPTIONS /tasks HTTP/1.1" 200 -
+2025-08-09 17:35:53,814 [INFO] GET /tasks -> 200 en 0.10s | Usuario: anónimo
+2025-08-09 17:35:53,833 [INFO] 127.0.0.1 - - [09/Aug/2025 17:35:53] "GET /tasks HTTP/1.1" 200 -
+2025-08-09 17:36:14,358 [INFO] 127.0.0.1 - - [09/Aug/2025 17:36:14] "OPTIONS /tasks HTTP/1.1" 200 -
+2025-08-09 17:36:14,444 [INFO] POST /tasks -> 201 en 0.05s | Usuario: anónimo
+2025-08-09 17:36:14,447 [INFO] 127.0.0.1 - - [09/Aug/2025 17:36:14] "[35m[1mPOST /tasks HTTP/1.1[0m" 201 -
+2025-08-09 17:36:16,591 [INFO] GET /tasks -> 200 en 0.04s | Usuario: anónimo
+2025-08-09 17:36:16,598 [INFO] 127.0.0.1 - - [09/Aug/2025 17:36:16] "GET /tasks HTTP/1.1" 200 -
+2025-08-09 17:46:08,665 [INFO] 127.0.0.1 - - [09/Aug/2025 17:46:08] "OPTIONS /auth/register HTTP/1.1" 200 -
+2025-08-09 17:46:09,011 [INFO] POST /auth/register -> 201 en 0.18s | Usuario: anónimo
+2025-08-09 17:46:09,018 [INFO] 127.0.0.1 - - [09/Aug/2025 17:46:09] "[35m[1mPOST /auth/register HTTP/1.1[0m" 201 -
+2025-08-09 17:46:44,503 [INFO] 127.0.0.1 - - [09/Aug/2025 17:46:44] "OPTIONS /auth/login HTTP/1.1" 200 -
+2025-08-09 17:46:44,797 [INFO] POST /auth/login -> 200 en 0.02s | Usuario: anónimo
+2025-08-09 17:46:44,798 [INFO] 127.0.0.1 - - [09/Aug/2025 17:46:44] "POST /auth/login HTTP/1.1" 200 -
+2025-08-09 17:46:45,144 [INFO] 127.0.0.1 - - [09/Aug/2025 17:46:45] "OPTIONS /tasks HTTP/1.1" 200 -
+2025-08-09 17:46:45,635 [INFO] GET /tasks -> 200 en 0.46s | Usuario: anónimo
+2025-08-09 17:46:45,641 [INFO] 127.0.0.1 - - [09/Aug/2025 17:46:45] "GET /tasks HTTP/1.1" 200 -
+2025-08-09 17:47:03,779 [INFO] 127.0.0.1 - - [09/Aug/2025 17:47:03] "OPTIONS /tasks HTTP/1.1" 200 -
+2025-08-09 17:47:03,848 [INFO] GET /tasks -> 200 en 0.05s | Usuario: anónimo
+2025-08-09 17:47:03,851 [INFO] 127.0.0.1 - - [09/Aug/2025 17:47:03] "GET /tasks HTTP/1.1" 200 -
+2025-08-09 17:48:25,349 [INFO] 127.0.0.1 - - [09/Aug/2025 17:48:25] "OPTIONS /auth/login HTTP/1.1" 200 -
+2025-08-09 17:48:25,648 [INFO] POST /auth/login -> 200 en 0.03s | Usuario: anónimo
+2025-08-09 17:48:25,650 [INFO] 127.0.0.1 - - [09/Aug/2025 17:48:25] "POST /auth/login HTTP/1.1" 200 -
+2025-08-09 17:48:25,730 [INFO] 127.0.0.1 - - [09/Aug/2025 17:48:25] "OPTIONS /tasks HTTP/1.1" 200 -
+2025-08-09 17:48:25,931 [INFO] GET /tasks -> 200 en 0.18s | Usuario: anónimo
+2025-08-09 17:48:25,934 [INFO] 127.0.0.1 - - [09/Aug/2025 17:48:25] "GET /tasks HTTP/1.1" 200 -
+2025-08-09 17:48:31,055 [INFO] 127.0.0.1 - - [09/Aug/2025 17:48:31] "OPTIONS /auth/login HTTP/1.1" 200 -
+2025-08-09 17:48:31,413 [INFO] POST /auth/login -> 401 en 0.01s | Usuario: anónimo
+2025-08-09 17:48:31,414 [INFO] 127.0.0.1 - - [09/Aug/2025 17:48:31] "[31m[1mPOST /auth/login HTTP/1.1[0m" 401 -
+2025-08-09 17:48:45,116 [INFO] 127.0.0.1 - - [09/Aug/2025 17:48:45] "OPTIONS /auth/login HTTP/1.1" 200 -
+2025-08-09 17:48:45,406 [INFO] POST /auth/login -> 200 en 0.02s | Usuario: anónimo
+2025-08-09 17:48:45,408 [INFO] 127.0.0.1 - - [09/Aug/2025 17:48:45] "POST /auth/login HTTP/1.1" 200 -
+2025-08-09 17:48:45,494 [INFO] 127.0.0.1 - - [09/Aug/2025 17:48:45] "OPTIONS /tasks HTTP/1.1" 200 -
+2025-08-09 17:48:45,572 [INFO] GET /tasks -> 200 en 0.03s | Usuario: anónimo
+2025-08-09 17:48:45,574 [INFO] 127.0.0.1 - - [09/Aug/2025 17:48:45] "GET /tasks HTTP/1.1" 200 -
+2025-08-09 18:02:02,814 [INFO] 127.0.0.1 - - [09/Aug/2025 18:02:02] "OPTIONS /tasks HTTP/1.1" 200 -
+2025-08-09 18:02:03,483 [INFO] GET /tasks -> 403 en 0.50s | Usuario: anónimo
+2025-08-09 18:02:03,489 [INFO] 127.0.0.1 - - [09/Aug/2025 18:02:03] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+2025-08-09 18:02:34,834 [INFO] 127.0.0.1 - - [09/Aug/2025 18:02:34] "OPTIONS /auth/login HTTP/1.1" 200 -
+2025-08-09 18:02:35,126 [INFO] POST /auth/login -> 401 en 0.07s | Usuario: anónimo
+2025-08-09 18:02:35,128 [INFO] 127.0.0.1 - - [09/Aug/2025 18:02:35] "[31m[1mPOST /auth/login HTTP/1.1[0m" 401 -
+2025-08-09 18:02:45,546 [INFO] 127.0.0.1 - - [09/Aug/2025 18:02:45] "OPTIONS /auth/login HTTP/1.1" 200 -
+2025-08-09 18:02:45,797 [INFO] POST /auth/login -> 200 en 0.05s | Usuario: anónimo
+2025-08-09 18:02:45,798 [INFO] 127.0.0.1 - - [09/Aug/2025 18:02:45] "POST /auth/login HTTP/1.1" 200 -
+2025-08-09 18:02:46,081 [INFO] 127.0.0.1 - - [09/Aug/2025 18:02:46] "OPTIONS /tasks HTTP/1.1" 200 -
+2025-08-09 18:02:46,298 [INFO] GET /tasks -> 200 en 0.15s | Usuario: anónimo
+2025-08-09 18:02:46,301 [INFO] 127.0.0.1 - - [09/Aug/2025 18:02:46] "GET /tasks HTTP/1.1" 200 -
+2025-08-09 18:02:55,269 [INFO] 127.0.0.1 - - [09/Aug/2025 18:02:55] "OPTIONS /tasks/1 HTTP/1.1" 200 -
+2025-08-09 18:02:55,351 [INFO] PUT /tasks/1 -> 404 en 0.03s | Usuario: anónimo
+2025-08-09 18:02:55,356 [INFO] 127.0.0.1 - - [09/Aug/2025 18:02:55] "[33mPUT /tasks/1 HTTP/1.1[0m" 404 -
+2025-08-09 18:02:56,804 [INFO] PUT /tasks/1 -> 404 en 0.02s | Usuario: anónimo
+2025-08-09 18:02:56,805 [INFO] 127.0.0.1 - - [09/Aug/2025 18:02:56] "[33mPUT /tasks/1 HTTP/1.1[0m" 404 -
+2025-08-09 18:03:06,728 [INFO] 127.0.0.1 - - [09/Aug/2025 18:03:06] "OPTIONS /tasks/4 HTTP/1.1" 200 -
+2025-08-09 18:03:06,855 [INFO] DELETE /tasks/4 -> 404 en 0.08s | Usuario: anónimo
+2025-08-09 18:03:06,856 [INFO] 127.0.0.1 - - [09/Aug/2025 18:03:06] "[33mDELETE /tasks/4 HTTP/1.1[0m" 404 -
+2025-08-09 18:03:11,954 [INFO] 127.0.0.1 - - [09/Aug/2025 18:03:11] "OPTIONS /tasks HTTP/1.1" 200 -
+2025-08-09 18:03:12,121 [INFO] GET /tasks -> 200 en 0.08s | Usuario: anónimo
+2025-08-09 18:03:12,123 [INFO] 127.0.0.1 - - [09/Aug/2025 18:03:12] "GET /tasks HTTP/1.1" 200 -
+2025-08-09 18:03:39,045 [INFO] 127.0.0.1 - - [09/Aug/2025 18:03:39] "OPTIONS /tasks HTTP/1.1" 200 -
+2025-08-09 18:03:39,245 [INFO] POST /tasks -> 201 en 0.13s | Usuario: anónimo
+2025-08-09 18:03:39,247 [INFO] 127.0.0.1 - - [09/Aug/2025 18:03:39] "[35m[1mPOST /tasks HTTP/1.1[0m" 201 -
+2025-08-09 18:03:41,429 [INFO] GET /tasks -> 200 en 0.07s | Usuario: anónimo
+2025-08-09 18:03:41,435 [INFO] 127.0.0.1 - - [09/Aug/2025 18:03:41] "GET /tasks HTTP/1.1" 200 -
+2025-08-09 18:43:22,974 [INFO] 127.0.0.1 - - [09/Aug/2025 18:43:22] "OPTIONS /tasks HTTP/1.1" 200 -
+2025-08-09 18:43:23,619 [INFO] GET /tasks -> 403 en 0.47s | Usuario: anónimo
+2025-08-09 18:43:23,624 [INFO] 127.0.0.1 - - [09/Aug/2025 18:43:23] "[31m[1mGET /tasks HTTP/1.1[0m" 403 -
+2025-08-09 18:44:06,042 [INFO] 127.0.0.1 - - [09/Aug/2025 18:44:06] "OPTIONS /auth/login HTTP/1.1" 200 -
+2025-08-09 18:44:06,367 [INFO] POST /auth/login -> 200 en 0.13s | Usuario: anónimo
+2025-08-09 18:44:06,371 [INFO] 127.0.0.1 - - [09/Aug/2025 18:44:06] "POST /auth/login HTTP/1.1" 200 -
+2025-08-09 18:44:06,508 [INFO] 127.0.0.1 - - [09/Aug/2025 18:44:06] "OPTIONS /tasks HTTP/1.1" 200 -
+2025-08-09 18:44:06,750 [INFO] GET /tasks -> 200 en 0.17s | Usuario: anónimo
+2025-08-09 18:44:06,763 [INFO] 127.0.0.1 - - [09/Aug/2025 18:44:06] "GET /tasks HTTP/1.1" 200 -
+2025-08-09 18:45:26,558 [INFO] 127.0.0.1 - - [09/Aug/2025 18:45:26] "OPTIONS /auth/register HTTP/1.1" 200 -
+2025-08-09 18:45:26,891 [INFO] POST /auth/register -> 500 en 0.07s | Usuario: anónimo
+2025-08-09 18:45:26,893 [INFO] 127.0.0.1 - - [09/Aug/2025 18:45:26] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+2025-08-09 18:45:55,161 [INFO] 127.0.0.1 - - [09/Aug/2025 18:45:55] "OPTIONS /auth/register HTTP/1.1" 200 -
+2025-08-09 18:45:55,650 [INFO] POST /auth/register -> 500 en 0.17s | Usuario: anónimo
+2025-08-09 18:45:55,653 [INFO] 127.0.0.1 - - [09/Aug/2025 18:45:55] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+2025-08-09 18:46:39,475 [INFO] 127.0.0.1 - - [09/Aug/2025 18:46:39] "OPTIONS /auth/register HTTP/1.1" 200 -
+2025-08-09 18:46:39,944 [INFO] POST /auth/register -> 201 en 0.21s | Usuario: anónimo
+2025-08-09 18:46:39,948 [INFO] 127.0.0.1 - - [09/Aug/2025 18:46:39] "[35m[1mPOST /auth/register HTTP/1.1[0m" 201 -
+2025-08-09 18:47:05,950 [INFO] 127.0.0.1 - - [09/Aug/2025 18:47:05] "OPTIONS /auth/login HTTP/1.1" 200 -
+2025-08-09 18:47:06,242 [INFO] POST /auth/login -> 200 en 0.04s | Usuario: anónimo
+2025-08-09 18:47:06,244 [INFO] 127.0.0.1 - - [09/Aug/2025 18:47:06] "POST /auth/login HTTP/1.1" 200 -
+2025-08-09 18:47:06,802 [INFO] 127.0.0.1 - - [09/Aug/2025 18:47:06] "OPTIONS /tasks HTTP/1.1" 200 -
+2025-08-09 18:47:07,162 [INFO] GET /tasks -> 200 en 0.21s | Usuario: anónimo
+2025-08-09 18:47:07,166 [INFO] 127.0.0.1 - - [09/Aug/2025 18:47:07] "GET /tasks HTTP/1.1" 200 -

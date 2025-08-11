@@ -1,0 +1,30 @@
+<div class="dashlogs-container">
+  <h2>Dashboard de Logs</h2>
+
+  <p><strong>Total Logs:</strong> {{ totalLogs }}</p>
+
+  <p><strong>Status Codes:</strong></p>
+  <ul>
+    <li *ngFor="let code of statusCount | keyvalue">
+      Código {{ code.key }}: {{ code.value }}
+    </li>
+  </ul>
+
+  <p><strong>Promedio Response Time:</strong> {{ avgResponseTime | number:'1.2-2' }} s</p>
+  <p><strong>Response Time más rápido:</strong> {{ minResponseTime | number:'1.2-2' }} s</p>
+
+  <p><strong>API más usada:</strong> {{ mostUsedApi }}</p>
+  <p><strong>API menos usada:</strong> {{ leastUsedApi }}</p>
+
+  <div class="chart-container">
+    <div class="chart-box">
+      <h3>Conteo de Status Codes</h3>
+      <canvas id="statusChart"></canvas>
+    </div>
+
+    <div class="chart-box">
+      <h3>Uso de APIs</h3>
+      <canvas id="apiChart"></canvas>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,113 @@
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  background: linear-gradient(to right, #001122, #003366, #001a4d) !important; 
+  font-family: Arial, sans-serif;
+}
+
+.login-container {
+  background-color: #ffffff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 51, 102, 0.7);
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+  justify-content: center !important;
+
+}
+
+.login-container:hover {
+  transform: scale(1.02);
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #003366;
+}
+
+.login-container label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #222;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 18px;
+  border: 1px solid #004080;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.login-container button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #003366;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-container button[type="submit"]:hover {
+  background-color: #001f4d;
+}
+
+.login-container .error {
+  color: red;
+  margin-bottom: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.login-container .register-button {
+  background: none;
+  border: none;
+  color: #003366;
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-top: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 14px;
+}
+
+.error-message {
+  color: red;
+  margin-top: 0.5rem;
+}
+
+.token-box {
+  background: #eee;
+  padding: 1rem;
+  margin-top: 1rem;
+  word-break: break-all;
+}
+
+.register-link {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.register-link button {
+  background: none;
+  border: none;
+  color: #007bff;
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}

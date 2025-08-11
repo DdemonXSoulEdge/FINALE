@@ -1,0 +1,109 @@
+2025-08-09 19:07:45,384 [INFO] Gateway iniciado en http://localhost:5000
+2025-08-09 19:07:45,540 [WARNING]  * Debugger is active!
+2025-08-09 19:07:45,584 [INFO]  * Debugger PIN: 989-091-996
+2025-08-09 19:12:52,732 [INFO]  * Detected change in 'C:\\Users\\Usuario\\OneDrive\\Documentos\\8vo Cuatrimestre\\SDA\\micro\\auth_service\\app.py', reloading
+2025-08-09 19:12:59,326 [WARNING]  * Debugger is active!
+2025-08-09 19:12:59,372 [INFO]  * Debugger PIN: 989-091-996
+2025-08-09 19:16:33,047 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.100.7:5001
+2025-08-09 19:16:33,049 [INFO] [33mPress CTRL+C to quit[0m
+2025-08-09 19:16:33,057 [INFO]  * Restarting with stat
+2025-08-09 19:16:38,582 [WARNING]  * Debugger is active!
+2025-08-09 19:16:38,647 [INFO]  * Debugger PIN: 989-091-996
+2025-08-09 19:17:08,269 [INFO] 127.0.0.1 - - [09/Aug/2025 19:17:08] "POST /login HTTP/1.1" 200 -
+2025-08-09 19:17:08,608 [INFO] 127.0.0.1 - - [09/Aug/2025 19:17:08] "POST /validate_token HTTP/1.1" 200 -
+2025-08-09 20:49:24,402 [INFO] 127.0.0.1 - - [09/Aug/2025 20:49:24] "POST /login HTTP/1.1" 200 -
+2025-08-09 20:49:26,652 [INFO] 127.0.0.1 - - [09/Aug/2025 20:49:26] "POST /validate_token HTTP/1.1" 200 -
+2025-08-09 21:08:44,853 [INFO] 127.0.0.1 - - [09/Aug/2025 21:08:44] "[31m[1mPOST /validate_token HTTP/1.1[0m" 403 -
+2025-08-09 21:09:06,208 [INFO] 127.0.0.1 - - [09/Aug/2025 21:09:06] "POST /login HTTP/1.1" 200 -
+2025-08-09 21:09:06,489 [INFO] 127.0.0.1 - - [09/Aug/2025 21:09:06] "POST /validate_token HTTP/1.1" 200 -
+2025-08-09 21:15:13,982 [INFO] 127.0.0.1 - - [09/Aug/2025 21:15:13] "POST /validate_token HTTP/1.1" 200 -
+2025-08-09 21:17:03,144 [INFO] 127.0.0.1 - - [09/Aug/2025 21:17:03] "POST /validate_token HTTP/1.1" 200 -
+2025-08-09 22:12:42,732 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.100.7:5001
+2025-08-09 22:12:42,733 [INFO] [33mPress CTRL+C to quit[0m
+2025-08-09 22:12:42,802 [INFO]  * Restarting with watchdog (windowsapi)
+2025-08-09 22:12:44,147 [WARNING]  * Debugger is active!
+2025-08-09 22:12:44,178 [INFO]  * Debugger PIN: 902-520-439
+2025-08-09 22:42:00,022 [INFO] 127.0.0.1 - - [09/Aug/2025 22:42:00] "POST /login HTTP/1.1" 200 -
+2025-08-09 22:42:01,459 [INFO] 127.0.0.1 - - [09/Aug/2025 22:42:01] "POST /validate_token HTTP/1.1" 200 -
+2025-08-10 00:16:30,177 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.100.7:5001
+2025-08-10 00:16:30,178 [INFO] [33mPress CTRL+C to quit[0m
+2025-08-10 00:16:30,281 [INFO]  * Restarting with watchdog (windowsapi)
+2025-08-10 00:16:34,460 [WARNING]  * Debugger is active!
+2025-08-10 00:16:34,537 [INFO]  * Debugger PIN: 902-520-439
+2025-08-10 00:52:14,644 [INFO] 127.0.0.1 - - [10/Aug/2025 00:52:14] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-08-10 00:52:24,495 [INFO] 127.0.0.1 - - [10/Aug/2025 00:52:24] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-08-10 00:52:53,026 [INFO] 127.0.0.1 - - [10/Aug/2025 00:52:53] "POST /login HTTP/1.1" 200 -
+2025-08-10 00:52:55,072 [INFO] 127.0.0.1 - - [10/Aug/2025 00:52:55] "POST /validate_token HTTP/1.1" 200 -
+2025-08-10 00:52:57,274 [INFO]  * Detected change in 'C:\\Users\\Usuario\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\codecs.py', reloading
+2025-08-10 00:52:59,076 [INFO]  * Restarting with watchdog (windowsapi)
+2025-08-10 00:53:03,501 [WARNING]  * Debugger is active!
+2025-08-10 00:53:03,532 [INFO]  * Debugger PIN: 902-520-439
+2025-08-10 01:08:34,062 [INFO] 127.0.0.1 - - [10/Aug/2025 01:08:34] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-08-10 01:08:44,395 [INFO] 127.0.0.1 - - [10/Aug/2025 01:08:44] "POST /login HTTP/1.1" 200 -
+2025-08-10 01:08:45,150 [INFO] 127.0.0.1 - - [10/Aug/2025 01:08:45] "POST /validate_token HTTP/1.1" 200 -
+2025-08-10 01:13:01,188 [INFO]  * Detected change in 'C:\\Users\\Usuario\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\ntpath.py', reloading
+2025-08-10 01:13:02,720 [INFO]  * Restarting with watchdog (windowsapi)
+2025-08-10 01:13:11,964 [WARNING]  * Debugger is active!
+2025-08-10 01:13:12,096 [INFO]  * Debugger PIN: 902-520-439
+2025-08-10 01:27:32,180 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.100.7:5001
+2025-08-10 01:27:32,180 [INFO] [33mPress CTRL+C to quit[0m
+2025-08-10 01:27:32,226 [INFO]  * Restarting with stat
+2025-08-10 01:27:35,440 [WARNING]  * Debugger is active!
+2025-08-10 01:27:35,470 [INFO]  * Debugger PIN: 254-308-487
+2025-08-10 01:45:05,204 [INFO] 127.0.0.1 - - [10/Aug/2025 01:45:05] "POST /login HTTP/1.1" 200 -
+2025-08-10 01:45:06,545 [INFO] 127.0.0.1 - - [10/Aug/2025 01:45:06] "POST /validate_token HTTP/1.1" 200 -
+2025-08-10 02:01:36,434 [WARNING]  * Debugger is active!
+2025-08-10 02:01:36,453 [INFO]  * Debugger PIN: 254-308-487
+2025-08-10 02:01:46,082 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.100.7:5001
+2025-08-10 02:01:46,083 [INFO] [33mPress CTRL+C to quit[0m
+2025-08-10 02:01:46,087 [INFO]  * Restarting with stat
+2025-08-10 02:01:47,630 [WARNING]  * Debugger is active!
+2025-08-10 02:01:47,651 [INFO]  * Debugger PIN: 254-308-487
+2025-08-10 02:03:06,055 [INFO] 127.0.0.1 - - [10/Aug/2025 02:03:06] "[31m[1mPOST /validate_token HTTP/1.1[0m" 403 -
+2025-08-10 02:03:52,677 [INFO] 127.0.0.1 - - [10/Aug/2025 02:03:52] "POST /login HTTP/1.1" 200 -
+2025-08-10 02:03:52,884 [INFO] 127.0.0.1 - - [10/Aug/2025 02:03:52] "POST /validate_token HTTP/1.1" 200 -
+2025-08-10 03:08:57,417 [INFO] 127.0.0.1 - - [10/Aug/2025 03:08:57] "[31m[1mPOST /validate_token HTTP/1.1[0m" 403 -
+2025-08-10 03:09:27,590 [INFO] 127.0.0.1 - - [10/Aug/2025 03:09:27] "POST /login HTTP/1.1" 200 -
+2025-08-10 03:09:27,772 [INFO] 127.0.0.1 - - [10/Aug/2025 03:09:27] "POST /validate_token HTTP/1.1" 200 -
+2025-08-10 03:14:19,471 [INFO] 127.0.0.1 - - [10/Aug/2025 03:14:19] "POST /validate_token HTTP/1.1" 200 -
+2025-08-10 03:14:27,853 [INFO] 127.0.0.1 - - [10/Aug/2025 03:14:27] "POST /validate_token HTTP/1.1" 200 -
+2025-08-10 03:19:06,397 [INFO] 127.0.0.1 - - [10/Aug/2025 03:19:06] "POST /login HTTP/1.1" 200 -
+2025-08-10 03:19:06,605 [INFO] 127.0.0.1 - - [10/Aug/2025 03:19:06] "POST /validate_token HTTP/1.1" 200 -
+2025-08-10 03:23:39,102 [INFO] 127.0.0.1 - - [10/Aug/2025 03:23:39] "POST /validate_token HTTP/1.1" 200 -
+2025-08-10 03:23:53,850 [INFO] 127.0.0.1 - - [10/Aug/2025 03:23:53] "POST /login HTTP/1.1" 200 -
+2025-08-10 03:23:53,970 [INFO] 127.0.0.1 - - [10/Aug/2025 03:23:53] "POST /validate_token HTTP/1.1" 200 -
+2025-08-10 03:28:35,389 [INFO] 127.0.0.1 - - [10/Aug/2025 03:28:35] "POST /login HTTP/1.1" 200 -
+2025-08-10 03:28:35,723 [INFO] 127.0.0.1 - - [10/Aug/2025 03:28:35] "POST /validate_token HTTP/1.1" 200 -
+2025-08-10 03:48:36,624 [INFO] 127.0.0.1 - - [10/Aug/2025 03:48:36] "[31m[1mPOST /validate_token HTTP/1.1[0m" 403 -
+2025-08-10 03:49:01,450 [INFO] 127.0.0.1 - - [10/Aug/2025 03:49:01] "[35m[1mPOST /register HTTP/1.1[0m" 201 -
+2025-08-10 03:49:51,267 [INFO] 127.0.0.1 - - [10/Aug/2025 03:49:51] "POST /login HTTP/1.1" 200 -
+2025-08-10 03:49:51,442 [INFO] 127.0.0.1 - - [10/Aug/2025 03:49:51] "POST /validate_token HTTP/1.1" 200 -
+2025-08-10 03:58:20,852 [INFO] 127.0.0.1 - - [10/Aug/2025 03:58:20] "POST /validate_token HTTP/1.1" 200 -
+2025-08-10 03:58:49,198 [INFO] 127.0.0.1 - - [10/Aug/2025 03:58:49] "POST /login HTTP/1.1" 200 -
+2025-08-10 03:58:50,456 [INFO] 127.0.0.1 - - [10/Aug/2025 03:58:50] "POST /validate_token HTTP/1.1" 200 -
+2025-08-10 04:01:03,629 [INFO] 127.0.0.1 - - [10/Aug/2025 04:01:03] "POST /validate_token HTTP/1.1" 200 -
+2025-08-10 15:04:46,893 [INFO] 127.0.0.1 - - [10/Aug/2025 15:04:46] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-08-10 15:04:55,042 [INFO] 127.0.0.1 - - [10/Aug/2025 15:04:55] "POST /login HTTP/1.1" 200 -
+2025-08-10 15:04:55,715 [INFO] 127.0.0.1 - - [10/Aug/2025 15:04:55] "POST /validate_token HTTP/1.1" 200 -
+2025-08-10 16:15:22,126 [INFO] 127.0.0.1 - - [10/Aug/2025 16:15:22] "[31m[1mPOST /validate_token HTTP/1.1[0m" 403 -
+2025-08-10 16:16:06,897 [INFO] 127.0.0.1 - - [10/Aug/2025 16:16:06] "POST /login HTTP/1.1" 200 -
+2025-08-10 16:16:07,750 [INFO] 127.0.0.1 - - [10/Aug/2025 16:16:07] "POST /validate_token HTTP/1.1" 200 -
+2025-08-10 16:19:32,439 [INFO] 127.0.0.1 - - [10/Aug/2025 16:19:32] "POST /validate_token HTTP/1.1" 200 -
+2025-08-10 18:38:03,713 [INFO] 127.0.0.1 - - [10/Aug/2025 18:38:03] "[31m[1mPOST /validate_token HTTP/1.1[0m" 403 -
+2025-08-10 18:38:28,776 [INFO] 127.0.0.1 - - [10/Aug/2025 18:38:28] "POST /login HTTP/1.1" 200 -
+2025-08-10 18:38:28,995 [INFO] 127.0.0.1 - - [10/Aug/2025 18:38:28] "POST /validate_token HTTP/1.1" 200 -
