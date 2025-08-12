@@ -4,8 +4,10 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+    "serve:ssr:gui": "node dist/gui/server/server.mjs"
   },
   "private": true,
   "dependencies": {
