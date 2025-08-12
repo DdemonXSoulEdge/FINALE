@@ -16,7 +16,6 @@ import requests
 
 app = Flask(__name__)
 CORS(app)
-CORS(app, resources={r"/*": {"origins": "*"}})
 
 
 DB_PATH = "auth_users.db"
