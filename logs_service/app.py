@@ -6,7 +6,6 @@ from pymongo import MongoClient
 
 app = Flask(__name__)
 CORS(app)
-CORS(app, resources={r"/*": {"origins": "*"}})
 
 
 MONGO_URI = "mongodb+srv://Ddemon:Ddemon1925@cluster0.xjpnfft.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
