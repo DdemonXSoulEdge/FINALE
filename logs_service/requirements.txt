@@ -6,4 +6,4 @@ requests
 pyotp
 qrcode
 Pillow
-pymongo
+dnspython>=2.4
