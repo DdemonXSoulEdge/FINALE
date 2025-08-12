@@ -7,6 +7,8 @@ from gateway_middleware import log_request_response, get_user_from_request
 
 app = Flask(__name__)
 CORS(app)
+CORS(app, resources={r"/*": {"origins": "*"}}) 
+
 
 AUTH_SERVICE_URL = "http://127.0.0.1:5001"
 TASK_SERVICE_URL = "http://127.0.0.1:5003"
