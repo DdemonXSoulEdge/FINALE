@@ -68,4 +68,4 @@ def _forward_request(url, log_path):
 
 if __name__ == "__main__":
     logging.info("Gateway iniciado en http://localhost:5000")
-    app.run(host="127.0.0.1", port=5000)
+    app.run(host="0.0.0.0", port=5000)
