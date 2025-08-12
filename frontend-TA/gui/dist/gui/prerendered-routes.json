@@ -1,0 +1,11 @@
+{
+  "routes": {
+    "/": {},
+    "/auth": {},
+    "/auth/login": {},
+    "/auth/register": {},
+    "/dashlogs": {},
+    "/tasks": {},
+    "/tasks/create": {}
+  }
+}
